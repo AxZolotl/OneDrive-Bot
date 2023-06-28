@@ -1,0 +1,79 @@
+    choice = -1
+
+    while choice != 0:
+        print('Please choose one of the following options:')
+        print('0. Exit')
+        print('1. Display access token')
+        print('2. List my inbox')
+        print('3. Make a Graph call')
+
+        print('\nChoice:')
+        try:
+            choice = int(input())
+        except ValueError:
+            choice = -1
+
+        try:
+            if choice == 0:
+                print('Goodbye...')
+            elif choice == 1:
+                await display_access_token(graph)
+            elif choice == 2:
+                await list_inbox(graph)
+            elif choice == 3:
+                await make_graph_call(graph)
+            else:
+                print('Invalid choice!\n')
+        except ODataError as odata_error:
+            print('Error:')
+            if odata_error.error:
+                print(odata_error.error.code, odata_error.error.message)
+
+async def greet_user(graph: Graph):
+    user = await graph.get_user()
+    if user:
+        print('\nHello,', user.display_name)
+        # For Work/school accounts, email is in mail property
+        # Personal accounts, email is in userPrincipalName
+        print('Email:', user.mail or user.user_principal_name, '\n')
+
+async def display_access_token(graph: Graph):
+    token = await graph.get_user_token()
+    print('User token:', token, '\n')
+
+async def list_inbox(graph: Graph):
+    message_page = await graph.get_inbox()
+    if message_page and message_page.value:
+        # Output each message's details
+        for message in message_page.value:
+            print('Message:', message.subject)
+            if (
+                message.from_ and
+                message.from_.email_address
+            ):
+                print('  From:', message.from_.email_address.name or 'NONE')
+            else:
+                print('  From: NONE')
+            print('  Status:', 'Read' if message.is_read else 'Unread')
+            print('  Received:', message.received_date_time)
+
+        # If @odata.nextLink is present
+        more_available = message_page.odata_next_link is not None
+        print('\nMore messages available?', more_available, '\n')
+
+async def send_mail(graph: Graph):
+    # TODO
+    return
+
+async def make_graph_call(graph: Graph):
+    # TODO
+    return
+
+
+    response_url = 'https://localhost:8000/getToken?code=0.AVQAjQVpL7qO3k2RzmwjdEhXMfWmQeHdDSRIn_BEDuV83olUAL4.AgABAAIAAAD--DLA3VO7QrddgJg7WevrAgDs_wUA9P9Zf89SwYvl4PjbOdTEFX45CGeuUGkwhIbQew8XRavi-f9fHYP1zpjhMdCYe8_b5mDCdT7XLRwYTiyGvisbEg-O9QOosVp6U3KZDQXxFvGY9TGCj4LatTtivGyNwMfg91DwRWr64_-hajBnSAcWGjqc-VgT2wcr-j7otK6ogfgHwQjVQuL0prIqCuEQ_SomudvQzppB2wyHZnWWkUOmwat8Omy1PFYxLi4Su-Ivtz__IHTW0yt0Kt-_iHDNXXKys9OxmBKAw9rtQHpPPGRnABMhnZccqo9o6IHhoFk4n8PLf41QZGNf2YkCWwzksBwMgG7W0EdUE9p6BK7-Ss8zPcrr8v8CLk_E1PBsUK9Jvi-veB1wHKmOECpW5gTzxCYGtGbRtMsulOYmMyeaYbQ24ZIdxtV2DsK9eP8F5UWmo0h-ieVtd9jtFx3x4s3YgdtUxjKfuBs3CGxlB95I_2ARuNIGxI46JxYgjlYO0ECwQT9TH7gZaW-_OOEtaSD_LTdF_ps2FfLzUGWTktjxVZlGcU0M_cwV9HsNCn2VlC23tFdN50111tcFxHQywh34C-YrwCn3H0Vtn4K1fc8_xswxgdTly-mqRZO6Qo9Nqh-Ivd8zeDyUKYDQ2hYeWsy2yxtlZvi0ulibmLhSJ5kr1GvAD9ZQH3xWwIsb1W5HB9A6yJWlwxWba7CWVp50H1OzbNZJWoSVQRD2rJ91k02BBAjED6iloSl0xMCUXQdXuK45CXb97D2PsFl9Nan08loBo9cQ4jVBw7QxNhos15uvM0W8MQEZBYW1&session_state=bc38fd16-2b28-47e0-82f4-2f39d82fa328#'
+        query_dict = parse_qs(urlparse(response_url).query)
+        auth_code = query_dict['code'][0]
+        access_token = client.acquire_token_by_authorization_code(code=auth_code, scopes=graph_scopes)
+        print(access_token)
+        with open('token.json', 'w') as f:
+            f.write(access_token_cache.serialize())

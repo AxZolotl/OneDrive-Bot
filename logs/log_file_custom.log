@@ -1,0 +1,151 @@
+2023-06-21 04:34:08,726|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 04:34:09,341|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/drive/me
+2023-06-21 04:34:09,751|msgraph_session.py|{
+    "error_code": 400,
+    "response_url": "https://graph.microsoft.com/v1.0/drive/me",
+    "response_body": {
+        "error": {
+            "code": "BadRequest",
+            "message": "Resource not found for the segment 'me'.",
+            "innerError": {
+                "date": "2023-06-20T20:34:09",
+                "request-id": "c5d76fef-aeec-4b5e-9224-3f21db419d9c",
+                "client-request-id": "c5d76fef-aeec-4b5e-9224-3f21db419d9c"
+            }
+        }
+    },
+    "response_request": {
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6Ilcxbng0RWNiTzFaSUpoajZjRkNJRlRJSGNQWjZrSjhrXy1pR09EUXNYRGMiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8yZjY5MDU4ZC04ZWJhLTRkZGUtOTFjZS02YzIzNzQ0ODU3MzEvIiwiaWF0IjoxNjg3MjkyOTQ4LCJuYmYiOjE2ODcyOTI5NDgsImV4cCI6MTY4NzI5NzIyNSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhUQUFBQTkwL3ZuTDVUZStUOHB4a2dVNjRFVXBrY0RoZ2Eyams0MVpCYkpyYVZnN2hRdUxPY0VPY2FMbjV0cTI2ZFZmNDYiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IkNTTCBCb3QiLCJhcHBpZCI6ImUxNDFhNmY1LTBkZGQtNDgyNC05ZmYwLTQ0MGVlNTdjZGU4OSIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiT0xMT1ZFWiIsImdpdmVuX25hbWUiOiJKSEFaTUlORSBNQUxBR0EiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIyMDAxOjQ0NTU6NWJhOmQzMDA6NjRjNjo4YTllOmFhZjA6YWE2NyIsIm5hbWUiOiJKSEFaTUlORSBNQUxBR0EgT0xMT1ZFWiIsIm9pZCI6ImY1NWQ0N2FhLTUyOGYtNDYzNS04MzY2LTNjZjI2YWM2MDc3YyIsInBsYXRmIjoiMyIsInB1aWQiOiIxMDAzM0ZGRjkxNjRERUYxIiwicmgiOiIwLkFWUUFqUVZwTDdxTzNrMlJ6bXdqZEVoWE1RTUFBQUFBQUFBQXdBQUFBQUFBQUFCVUFMNC4iLCJzY3AiOiJGaWxlcy5SZWFkV3JpdGUgb3BlbmlkIHByb2ZpbGUgVXNlci5SZWFkIGVtYWlsIiwic2lnbmluX3N0YXRlIjpbImttc2kiXSwic3ViIjoiZ0xRVS1yMUtlNzBhY2ZNU0dLUkx5UlhkcWdwMUVyMk4ySVpzMzdLME9fTSIsInRlbmFudF9yZWdpb25fc2NvcGUiOiJBUyIsInRpZCI6IjJmNjkwNThkLThlYmEtNGRkZS05MWNlLTZjMjM3NDQ4NTczMSIsInVuaXF1ZV9uYW1lIjoiY3J1c2FkZXJ5ZWFyYm9va0B4dS5lZHUucGgiLCJ1cG4iOiJjcnVzYWRlcnllYXJib29rQHh1LmVkdS5waCIsInV0aSI6IjlOY21nRy1iOVVXT291N2duTWgwQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfc3QiOnsic3ViIjoic1BVcENULWQ1VTVtdnhDR29JeUdKeHAtZTh6T0ZfUWJVdng1TzFWSTJWYyJ9LCJ4bXNfdGNkdCI6MTQzNTgxOTU2OX0.KuMSrCCdgvkENXIG7bgZzn3J0UJhjr-vMgP2xS7Rp9aPIUteGcGeUtOXwWxC9lzaPtWLsWhIM1Vr0h6G-pmru8eYTTdOcivCmjvyfj2CVqi6laY3a2MFoTPBymrw0Chd-wX_F3DTlLFPYsmmM6Pl5w2i0bRn3CeOeXng9Z7zu0EzFnxy3-ZthoZJp4GOYcvG_uTqwvf9uwkINtuV3J-TyYtIDT6MNs5NVrLtnV-syJZTKKiO2Kc0XzuTe0cQiP8PmM-HkM-95Wklz4aUKsSdSoInmjCxOVjcFUpAn2_czawtOtqStP_TSf7q5OtYT_YZ30CwW8dl8504QLaLBNqYvg"
+    },
+    "response_method": "GET"
+}
+2023-06-21 04:44:14,133|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 04:44:14,693|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/drive/me
+2023-06-21 04:44:15,093|msgraph_session.py|{
+    "error_code": 400,
+    "response_url": "https://graph.microsoft.com/v1.0/drive/me",
+    "response_body": {
+        "error": {
+            "code": "BadRequest",
+            "message": "Resource not found for the segment 'me'.",
+            "innerError": {
+                "date": "2023-06-20T20:44:14",
+                "request-id": "f3839572-9982-4bd4-b22c-3004e47d9d84",
+                "client-request-id": "f3839572-9982-4bd4-b22c-3004e47d9d84"
+            }
+        }
+    },
+    "response_request": {
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6Ilcxbng0RWNiTzFaSUpoajZjRkNJRlRJSGNQWjZrSjhrXy1pR09EUXNYRGMiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8yZjY5MDU4ZC04ZWJhLTRkZGUtOTFjZS02YzIzNzQ0ODU3MzEvIiwiaWF0IjoxNjg3MjkyOTQ4LCJuYmYiOjE2ODcyOTI5NDgsImV4cCI6MTY4NzI5NzIyNSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhUQUFBQTkwL3ZuTDVUZStUOHB4a2dVNjRFVXBrY0RoZ2Eyams0MVpCYkpyYVZnN2hRdUxPY0VPY2FMbjV0cTI2ZFZmNDYiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IkNTTCBCb3QiLCJhcHBpZCI6ImUxNDFhNmY1LTBkZGQtNDgyNC05ZmYwLTQ0MGVlNTdjZGU4OSIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiT0xMT1ZFWiIsImdpdmVuX25hbWUiOiJKSEFaTUlORSBNQUxBR0EiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIyMDAxOjQ0NTU6NWJhOmQzMDA6NjRjNjo4YTllOmFhZjA6YWE2NyIsIm5hbWUiOiJKSEFaTUlORSBNQUxBR0EgT0xMT1ZFWiIsIm9pZCI6ImY1NWQ0N2FhLTUyOGYtNDYzNS04MzY2LTNjZjI2YWM2MDc3YyIsInBsYXRmIjoiMyIsInB1aWQiOiIxMDAzM0ZGRjkxNjRERUYxIiwicmgiOiIwLkFWUUFqUVZwTDdxTzNrMlJ6bXdqZEVoWE1RTUFBQUFBQUFBQXdBQUFBQUFBQUFCVUFMNC4iLCJzY3AiOiJGaWxlcy5SZWFkV3JpdGUgb3BlbmlkIHByb2ZpbGUgVXNlci5SZWFkIGVtYWlsIiwic2lnbmluX3N0YXRlIjpbImttc2kiXSwic3ViIjoiZ0xRVS1yMUtlNzBhY2ZNU0dLUkx5UlhkcWdwMUVyMk4ySVpzMzdLME9fTSIsInRlbmFudF9yZWdpb25fc2NvcGUiOiJBUyIsInRpZCI6IjJmNjkwNThkLThlYmEtNGRkZS05MWNlLTZjMjM3NDQ4NTczMSIsInVuaXF1ZV9uYW1lIjoiY3J1c2FkZXJ5ZWFyYm9va0B4dS5lZHUucGgiLCJ1cG4iOiJjcnVzYWRlcnllYXJib29rQHh1LmVkdS5waCIsInV0aSI6IjlOY21nRy1iOVVXT291N2duTWgwQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfc3QiOnsic3ViIjoic1BVcENULWQ1VTVtdnhDR29JeUdKeHAtZTh6T0ZfUWJVdng1TzFWSTJWYyJ9LCJ4bXNfdGNkdCI6MTQzNTgxOTU2OX0.KuMSrCCdgvkENXIG7bgZzn3J0UJhjr-vMgP2xS7Rp9aPIUteGcGeUtOXwWxC9lzaPtWLsWhIM1Vr0h6G-pmru8eYTTdOcivCmjvyfj2CVqi6laY3a2MFoTPBymrw0Chd-wX_F3DTlLFPYsmmM6Pl5w2i0bRn3CeOeXng9Z7zu0EzFnxy3-ZthoZJp4GOYcvG_uTqwvf9uwkINtuV3J-TyYtIDT6MNs5NVrLtnV-syJZTKKiO2Kc0XzuTe0cQiP8PmM-HkM-95Wklz4aUKsSdSoInmjCxOVjcFUpAn2_czawtOtqStP_TSf7q5OtYT_YZ30CwW8dl8504QLaLBNqYvg"
+    },
+    "response_method": "GET"
+}
+2023-06-21 04:53:13,029|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 04:53:48,405|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 04:54:39,430|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 04:54:48,667|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 04:58:54,743|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 05:01:59,584|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 05:02:06,366|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 05:02:06,822|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive
+2023-06-21 06:02:08,057|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 10:18:33,539|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 10:26:05,556|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 10:26:34,783|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 10:43:36,737|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 10:46:38,460|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 10:47:30,738|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 11:41:38,651|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 17:31:15,489|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:06:07,978|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:07:10,988|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:10:18,509|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:10:23,029|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:15:27,767|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:15:31,653|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:17:53,854|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:17:56,517|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:18:17,255|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='DADULLA, LIEZL ANN B')
+2023-06-21 20:20:12,988|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:20:15,707|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:21:25,981|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:21:29,202|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:21:55,485|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink
+2023-06-21 20:22:19,732|msgraph_session.py|{
+    "error_code": 403,
+    "response_url": "https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink",
+    "response_body": {
+        "error": {
+            "code": "notAllowed",
+            "message": "Operation not allowed",
+            "innerError": {
+                "date": "2023-06-21T12:22:04",
+                "request-id": "c6586c36-2f24-4aa2-a031-ec980d05994b",
+                "client-request-id": "c6586c36-2f24-4aa2-a031-ec980d05994b"
+            }
+        }
+    },
+    "response_request": {
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IkQ5WUVmWVRMT3daRC1oX2V1TXB1dm9JSzl6T3VfYVZlX2FxbzFaRERNbVkiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8yZjY5MDU4ZC04ZWJhLTRkZGUtOTFjZS02YzIzNzQ0ODU3MzEvIiwiaWF0IjoxNjg3MzQ4ODY2LCJuYmYiOjE2ODczNDg4NjYsImV4cCI6MTY4NzM1NDMxOSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhUQUFBQXJJYVJFRHNvRS9EY0xEY0ZRVUxlSlgzV0NZdzljdVdWdGtzempIbXZNZTBHREwxZW9VUzc2Vmo2Y0l3RSs3VEwiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IkNTTCBCb3QiLCJhcHBpZCI6ImUxNDFhNmY1LTBkZGQtNDgyNC05ZmYwLTQ0MGVlNTdjZGU4OSIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiT0xMT1ZFWiIsImdpdmVuX25hbWUiOiJKSEFaTUlORSBNQUxBR0EiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIyMDAxOjQ0NTU6NWJhOmQzMDA6NjRjNjo4YTllOmFhZjA6YWE2NyIsIm5hbWUiOiJKSEFaTUlORSBNQUxBR0EgT0xMT1ZFWiIsIm9pZCI6ImY1NWQ0N2FhLTUyOGYtNDYzNS04MzY2LTNjZjI2YWM2MDc3YyIsInBsYXRmIjoiMyIsInB1aWQiOiIxMDAzM0ZGRjkxNjRERUYxIiwicmgiOiIwLkFWUUFqUVZwTDdxTzNrMlJ6bXdqZEVoWE1RTUFBQUFBQUFBQXdBQUFBQUFBQUFCVUFMNC4iLCJzY3AiOiJGaWxlcy5SZWFkV3JpdGUgb3BlbmlkIHByb2ZpbGUgVXNlci5SZWFkIGVtYWlsIiwic2lnbmluX3N0YXRlIjpbImttc2kiXSwic3ViIjoiZ0xRVS1yMUtlNzBhY2ZNU0dLUkx5UlhkcWdwMUVyMk4ySVpzMzdLME9fTSIsInRlbmFudF9yZWdpb25fc2NvcGUiOiJBUyIsInRpZCI6IjJmNjkwNThkLThlYmEtNGRkZS05MWNlLTZjMjM3NDQ4NTczMSIsInVuaXF1ZV9uYW1lIjoiY3J1c2FkZXJ5ZWFyYm9va0B4dS5lZHUucGgiLCJ1cG4iOiJjcnVzYWRlcnllYXJib29rQHh1LmVkdS5waCIsInV0aSI6ImhFZjdSbzZ0c0VpUWVRWHE1YXQzQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfc3QiOnsic3ViIjoic1BVcENULWQ1VTVtdnhDR29JeUdKeHAtZTh6T0ZfUWJVdng1TzFWSTJWYyJ9LCJ4bXNfdGNkdCI6MTQzNTgxOTU2OX0.cFqGt47mWeb5FhiWklIQzJBWiZNZbIxByPfMBdGUmUSzJKjZ1Oj_uegOk_UgfRoqdTWs4inDqzLesYHzPB24eVI6FavYrg-IkhdLfJHjvsvbYe_DhoSGAqoGxlb7kxHIYP8_KJuLIkW5ecxPtrPTm9RxBPXiRsRxbiFTxULjkz1q0jUhPd-SlPt7mnELtsebt7wMoNNYBknBFoUSyIm_7MC5zfIBoiCl7CHJDKElLuia6m-FwOZKUznGGxq_u1frAC1uD8e61xPWaBLDPcSqXJA9wYGC_f8EYdJPMRebI06zHHmQwRuPRLBl71fTvWiBMbC2_vuRxw8weBKunTZQjA",
+        "Content-Length": "38",
+        "Content-Type": "application/json"
+    },
+    "response_method": "GET"
+}
+2023-06-21 20:31:25,423|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:31:31,016|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:32:18,163|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:32:21,954|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:32:37,681|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink
+2023-06-21 20:39:35,264|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:39:37,812|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:40:07,425|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink
+2023-06-21 20:40:37,180|msgraph_session.py|{
+    "error_code": 403,
+    "response_url": "https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink",
+    "response_body": {
+        "error": {
+            "code": "notAllowed",
+            "message": "Operation not allowed",
+            "innerError": {
+                "date": "2023-06-21T12:40:15",
+                "request-id": "5414153d-25b4-4f0f-8458-2717a1c99897",
+                "client-request-id": "5414153d-25b4-4f0f-8458-2717a1c99897"
+            }
+        }
+    },
+    "response_request": {
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IkQ5WUVmWVRMT3daRC1oX2V1TXB1dm9JSzl6T3VfYVZlX2FxbzFaRERNbVkiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8yZjY5MDU4ZC04ZWJhLTRkZGUtOTFjZS02YzIzNzQ0ODU3MzEvIiwiaWF0IjoxNjg3MzQ4ODY2LCJuYmYiOjE2ODczNDg4NjYsImV4cCI6MTY4NzM1NDMxOSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFUUUF5LzhUQUFBQXJJYVJFRHNvRS9EY0xEY0ZRVUxlSlgzV0NZdzljdVdWdGtzempIbXZNZTBHREwxZW9VUzc2Vmo2Y0l3RSs3VEwiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IkNTTCBCb3QiLCJhcHBpZCI6ImUxNDFhNmY1LTBkZGQtNDgyNC05ZmYwLTQ0MGVlNTdjZGU4OSIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiT0xMT1ZFWiIsImdpdmVuX25hbWUiOiJKSEFaTUlORSBNQUxBR0EiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIyMDAxOjQ0NTU6NWJhOmQzMDA6NjRjNjo4YTllOmFhZjA6YWE2NyIsIm5hbWUiOiJKSEFaTUlORSBNQUxBR0EgT0xMT1ZFWiIsIm9pZCI6ImY1NWQ0N2FhLTUyOGYtNDYzNS04MzY2LTNjZjI2YWM2MDc3YyIsInBsYXRmIjoiMyIsInB1aWQiOiIxMDAzM0ZGRjkxNjRERUYxIiwicmgiOiIwLkFWUUFqUVZwTDdxTzNrMlJ6bXdqZEVoWE1RTUFBQUFBQUFBQXdBQUFBQUFBQUFCVUFMNC4iLCJzY3AiOiJGaWxlcy5SZWFkV3JpdGUgb3BlbmlkIHByb2ZpbGUgVXNlci5SZWFkIGVtYWlsIiwic2lnbmluX3N0YXRlIjpbImttc2kiXSwic3ViIjoiZ0xRVS1yMUtlNzBhY2ZNU0dLUkx5UlhkcWdwMUVyMk4ySVpzMzdLME9fTSIsInRlbmFudF9yZWdpb25fc2NvcGUiOiJBUyIsInRpZCI6IjJmNjkwNThkLThlYmEtNGRkZS05MWNlLTZjMjM3NDQ4NTczMSIsInVuaXF1ZV9uYW1lIjoiY3J1c2FkZXJ5ZWFyYm9va0B4dS5lZHUucGgiLCJ1cG4iOiJjcnVzYWRlcnllYXJib29rQHh1LmVkdS5waCIsInV0aSI6ImhFZjdSbzZ0c0VpUWVRWHE1YXQzQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfc3QiOnsic3ViIjoic1BVcENULWQ1VTVtdnhDR29JeUdKeHAtZTh6T0ZfUWJVdng1TzFWSTJWYyJ9LCJ4bXNfdGNkdCI6MTQzNTgxOTU2OX0.cFqGt47mWeb5FhiWklIQzJBWiZNZbIxByPfMBdGUmUSzJKjZ1Oj_uegOk_UgfRoqdTWs4inDqzLesYHzPB24eVI6FavYrg-IkhdLfJHjvsvbYe_DhoSGAqoGxlb7kxHIYP8_KJuLIkW5ecxPtrPTm9RxBPXiRsRxbiFTxULjkz1q0jUhPd-SlPt7mnELtsebt7wMoNNYBknBFoUSyIm_7MC5zfIBoiCl7CHJDKElLuia6m-FwOZKUznGGxq_u1frAC1uD8e61xPWaBLDPcSqXJA9wYGC_f8EYdJPMRebI06zHHmQwRuPRLBl71fTvWiBMbC2_vuRxw8weBKunTZQjA",
+        "Content-Type": "application/json",
+        "Content-Length": "38"
+    },
+    "response_method": "GET"
+}
+2023-06-21 20:42:09,169|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:42:11,641|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:44:20,733|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink
+2023-06-21 20:55:17,672|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:55:20,714|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:55:53,691|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:55:56,662|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:57:17,799|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:57:20,011|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:57:34,235|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink
+2023-06-21 20:58:39,288|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-21 20:58:41,189|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-21 20:58:42,670|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink
+2023-06-21 21:02:00,103|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='DADULLA, LIEZL ANN B')
+2023-06-21 21:02:29,243|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXCKZRPQMBVHWVCLWFTIKI2EOHMT/createLink
+2023-06-21 21:05:10,835|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='TAN, RUBEN JACOB JR. R')
+2023-06-21 21:05:29,141|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXEFW46Y4L3KOVAKOGWE37LDS6NN/createLink
+2023-06-21 21:05:37,428|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='UBALDE, RENZ T')
+2023-06-21 21:05:39,225|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXE7ST7A6D33HZHJQO5L4GVDZ243/createLink
+2023-06-22 18:14:49,384|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me
+2023-06-22 18:14:57,793|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='CAHULOGAN, JESSA S')
+2023-06-22 18:15:03,020|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXF3KXGMC2UAH5FIXVMKMTJMKWYY/createLink
+2023-06-22 18:15:03,853|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='DADULLA, LIEZL ANN B')
+2023-06-22 18:15:07,698|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXCKZRPQMBVHWVCLWFTIKI2EOHMT/createLink
+2023-06-22 18:15:09,439|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='TAN, RUBEN JACOB JR. R')
+2023-06-22 18:15:10,884|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXEFW46Y4L3KOVAKOGWE37LDS6NN/createLink
+2023-06-22 18:15:11,533|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/root/search(q='UBALDE, RENZ T')
+2023-06-22 18:15:13,164|msgraph_session.py|URL: https://graph.microsoft.com/v1.0/me/drive/items/01F3OFXXE7ST7A6D33HZHJQO5L4GVDZ243/createLink
